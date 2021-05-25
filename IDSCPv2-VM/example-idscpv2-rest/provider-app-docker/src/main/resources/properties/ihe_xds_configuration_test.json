@@ -1,0 +1,74 @@
+{
+	"id": "test",
+	"properties": {
+		"ihe.xds.home.community.id": "1.3.6.1.4.1.21367.13.20.3000",
+
+		"feasibilityquery.submissionset.title": "Feasibility Query Input Document",
+
+		"feasibilityquery.submissionset.contenttypecode.codesystem": "1.2.276.0.76.11.39",
+		"feasibilityquery.submissionset.contenttypecode.codesystemname": "IHE XDS Content Type Code",
+		"feasibilityquery.submissionset.contenttypecode.value": "11",
+		"feasibilityquery.submissionset.contenttypecode.displayname": "Monitoring",
+
+		"feasibilityquery.folder.title": "Feasibility Query",
+
+		"feasibilityquery.document.input.title": "Feasibility Query Input Document",
+		"feasibilityquery.document.input.mime": "application/json",
+
+		"feasibilityquery.document.input.formatcode.codesystem": "1.3.6.1.4.1.19376.1.2.3",
+		"feasibilityquery.document.input.formatcode.codesystemname": "IHE Format Codes",
+		"feasibilityquery.document.input.formatcode.value": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+		"feasibilityquery.document.input.formatcode.displayname": "mimeTypeSufficient",
+
+		"feasibilityquery.document.input.confidentialitycode.codesystem": "1.2.276.0.76.11.33",
+		"feasibilityquery.document.input.confidentialitycode.codesystemname": "IHE XDS Confidentiality Code",
+		"feasibilityquery.document.input.confidentialitycode.value": "N",
+		"feasibilityquery.document.input.confidentialitycode.displayname": "normal",
+
+		"feasibilityquery.document.input.healthcare.facility.typecode.codesystem": "1.2.276.0.76.11.36",
+		"feasibilityquery.document.input.healthcare.facility.typecode.codesystemname": "IHE XDS Healthcare Facility Type Code",
+		"feasibilityquery.document.input.healthcare.facility.typecode.value": "FOR",
+		"feasibilityquery.document.input.healthcare.facility.typecode.displayname": "Forschungseinrichtung",
+
+		"feasibilityquery.document.input.practice.setting.code.codesystem": "1.2.276.0.76.11.37",
+		"feasibilityquery.document.input.practice.setting.code.codesystemname": "IHE XDS Practice Setting Code",
+		"feasibilityquery.document.input.practice.setting.code.value": "FOR",
+		"feasibilityquery.document.input.practice.setting.code.displayname": "Forschungseinrichtung",
+
+		"feasibilityquery.document.input.classcode.codesystem": "1.2.276.0.76.3.1.320.1.1.5.1.1",
+		"feasibilityquery.document.input.classcode.codesystemname": "SMITH Document Class Codes",
+		"feasibilityquery.document.input.classcode.value": "1.2.276.0.76.3.1.320.1.11.1.1",
+		"feasibilityquery.document.input.classcode.displayname": "Feasibility Query input document",
+
+		"feasibilityquery.document.input.typecode.codesystem": "1.2.276.0.76.3.1.320.1.1.5.1.1",
+		"feasibilityquery.document.input.typecode.codesystemname": "SMITH Document Class Codes",
+		"feasibilityquery.document.input.typecode.value": "1.2.276.0.76.3.1.320.1.11.1.2",
+		"feasibilityquery.document.input.typecode.displayname": "Feasibility Query Input Document Research Domain",
+
+		"feasibilityquery.document.input.typecode.domain.research.codesystem": "1.2.276.0.76.3.1.320.1.11.1.1",
+		"feasibilityquery.document.input.typecode.domain.research.codesystemname": "SMITH_DOCUMENT_TYPE_CODES",
+		"feasibilityquery.document.input.typecode.domain.research.value": "FEASIBILITY_QUERY_INPUT_DOCUMENT_RESEARCH_DOMAIN",
+		"feasibilityquery.document.input.typecode.domain.research.displayname": "FEASIBILITY_QUERY_INPUT_DOCUMENT_RESEARCH_DOMAIN",
+
+		"feasibilityquery.document.input.typecode.domain.clinicalcare.codesystem": "1.2.276.0.76.3.1.320.1.11.1.1",
+		"feasibilityquery.document.input.typecode.domain.clinicalcare.codesystemname": "SMITH_DOCUMENT_TYPE_CODES",
+		"feasibilityquery.document.input.typecode.domain.clinicalcare.value": "FEASIBILITY_QUERY_INPUT_DOCUMENT_CLINICAL_CARE_DOMAIN",
+		"feasibilityquery.document.input.typecode.domain.clinicalcare.displayname": "FEASIBILITY_QUERY_INPUT_DOCUMENT_CLINICAL_CARE_DOMAIN",
+
+		"feasibilityquery.document.input.patient.id.root": "1.2.276.0.76.3.1.320.1.1.2.2.3.1.1",
+		"feasibilityquery.document.input.patient.id.extension": "PP.DSS.FQ",
+
+		"feasibilityquery.document.input.id.codesystem": "1.2.276.0.76.3.1.320.1.11.1.1",
+
+		"feasibilityquery.document.input.author": ""
+	},
+	"subProperties": {
+		"DIC_1": {
+			"id": "dic_1_test",
+			"properties": {
+				"feasibilityquery.document.input.patient.id.root": "SMITH_FEASIBILITY_QUERY_PATIENT_ID_DIC_1",
+				"feasibilityquery.document.input.patient.id.extension": "SMITH_FEASIBILITY_QUERY_PATIENT_ID_DIC_1"
+			}
+		}
+	}
+}

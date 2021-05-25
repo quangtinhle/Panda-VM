@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XDW.WorkflowDocument xmlns="urn:ihe:iti:xdw:2011" xmlns:ns2="urn:hl7-org:v3" xmlns:ns3="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803">
+    <id root="d534bc5e-c694-4df7-a7e3-1cc51db7b28b" extension="711e71af-8b6d-41a0-a4b6-93780367edc7"/>
+    <effectiveTime value="20191128122622"/>
+    <confidentialityCode code="7365cef0-2dc2-44df-9b62-fbf702ea7c79" codeSystem="dc03cfc5-7d25-4fa8-bcfd-93909a16a076" codeSystemName="name" displayName="ConfidentialityCode"/>
+    <patient>
+        <id root="1.3.6.1.4.1.21367.13.20.3001" extension="2342"/>
+        <name/>
+    </patient>
+    <author>
+        <assignedAuthor>
+            <ns2:id root="559c6430-1280-42dc-8af8-f42c72117e47" extension="2ec9aaa2-c915-4423-b289-c76f87a41d80"/>
+            <ns2:assignedPerson>
+            </ns2:assignedPerson>
+        </assignedAuthor>
+    </author>
+    <workflowInstanceId>1.3.0.4.0.4</workflowInstanceId>
+    <workflowDocumentSequenceNumber>2</workflowDocumentSequenceNumber>
+    <workflowStatus>OPEN</workflowStatus>
+    <workflowStatusHistory>
+        <documentEvent>
+            <eventTime>2019-11-28T12:26:22.046+01:00</eventTime>
+            <eventType>create</eventType>
+            <taskEventIdentifier>e4fc6cae-42cf-42fa-807d-fed8e6b30049</taskEventIdentifier>
+            <author>Camunda-Engine</author>
+            <previousStatus></previousStatus>
+            <actualStatus>OPEN</actualStatus>
+        </documentEvent>
+    </workflowStatusHistory>
+    <workflowDefinitionReference>dua</workflowDefinitionReference>
+    <TaskList>
+        <XDWTask>
+            <taskData>
+                <ns3:taskDetails>
+                    <ns3:id>38f18592-ae12-4391-919b-5b3a8191623c</ns3:id>
+                    <ns3:taskType>Requested</ns3:taskType>
+                    <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">delegateTaskTestName</ns3:name>
+                    <ns3:status>CREATED</ns3:status>
+                    <ns3:potentialOwners>
+                        <ns3:group>ScientistA</ns3:group>
+                    </ns3:potentialOwners>
+                    <ns3:actualOwner>Owner</ns3:actualOwner>
+                    <ns3:createdTime>2019-11-28T12:26:22.045+01:00</ns3:createdTime>
+                    <ns3:createdBy>Creator</ns3:createdBy>
+                    <ns3:lastModifiedTime>2019-11-28T12:26:22.045+01:00</ns3:lastModifiedTime>
+                    <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
+                </ns3:taskDetails>
+                <ns3:description>Description</ns3:description>
+                <ns3:input>
+                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
+                        <ns3:attachmentInfo>
+                            <ns3:identifier>2.25.1574940381957/urn:uuid:60a10c6e-0497-4815-840f-cd65d3f86529</ns3:identifier>
+                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
+                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
+                            <ns3:contentType>application/json</ns3:contentType>
+                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
+                            <ns3:attachedTime>2019-11-28T12:26:22.048+01:00</ns3:attachedTime>
+                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
+                        </ns3:attachmentInfo>
+                    </ns3:part>
+                </ns3:input>
+                <ns3:output/>
+            </taskData>
+            <taskEventHistory>
+                <taskEvent>
+                    <id>1</id>
+                    <eventTime>2019-11-28T12:26:22.046+01:00</eventTime>
+                    <identifier>e4fc6cae-42cf-42fa-807d-fed8e6b30049</identifier>
+                    <eventType>create</eventType>
+                    <status>CREATED</status>
+                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                </taskEvent>
+            </taskEventHistory>
+        </XDWTask>
+        <XDWTask>
+            <taskData>
+                <ns3:taskDetails>
+                    <ns3:id>69e73f4f-1d82-4c17-8b44-acbfcc862e22</ns3:id>
+                    <ns3:taskType>Requested</ns3:taskType>
+                    <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">delegateTaskTestName</ns3:name>
+                    <ns3:status>CREATED</ns3:status>
+                    <ns3:potentialOwners>
+                        <ns3:group>ScientistA</ns3:group>
+                    </ns3:potentialOwners>
+                    <ns3:actualOwner>Owner</ns3:actualOwner>
+                    <ns3:createdTime>2019-11-28T12:26:25.457+01:00</ns3:createdTime>
+                    <ns3:createdBy>Creator</ns3:createdBy>
+                    <ns3:lastModifiedTime>2019-11-28T12:26:25.457+01:00</ns3:lastModifiedTime>
+                    <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
+                </ns3:taskDetails>
+                <ns3:description>Description</ns3:description>
+                <ns3:input>
+                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
+                        <ns3:attachmentInfo>
+                            <ns3:identifier>2.25.1574940385421/urn:uuid:236c0654-28f4-41e7-88b0-32f4b9d7d50a</ns3:identifier>
+                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
+                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
+                            <ns3:contentType>application/json</ns3:contentType>
+                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
+                            <ns3:attachedTime>2019-11-28T12:26:25.457+01:00</ns3:attachedTime>
+                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
+                        </ns3:attachmentInfo>
+                    </ns3:part>
+                </ns3:input>
+                <ns3:output/>
+            </taskData>
+            <taskEventHistory>
+                <taskEvent>
+                    <id>1</id>
+                    <eventTime>2019-11-28T12:26:25.457+01:00</eventTime>
+                    <identifier>2d57c84d-336d-4ce2-a3eb-8149a39fccb6</identifier>
+                    <eventType>create</eventType>
+                    <status>CREATED</status>
+                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                </taskEvent>
+            </taskEventHistory>
+        </XDWTask>
+    </TaskList>
+</XDW.WorkflowDocument>

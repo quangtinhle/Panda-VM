@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+
+  provider-app-test:
+    container_name: example-data-provider
+    image: quangtinhle/provider-app-isst:example-data-provider
+    networks:
+      - smith
+
+networks:
+  smith:
+    name: smith
+    driver: bridge
+
+    

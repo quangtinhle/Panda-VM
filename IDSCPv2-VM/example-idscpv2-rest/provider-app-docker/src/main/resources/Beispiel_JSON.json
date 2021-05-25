@@ -1,0 +1,81 @@
+[{
+        "wholeSectionRepetitive": false,
+        "title": "Titel",
+        "formFields": [{
+                "id": "d4f259cb-da67-4659-bb25-5fc7f77d06b9",
+                "formType": {
+                    "value": "e",
+                    "name": "string"
+                },
+                "isRepetitive": false,
+                "label": "Titel des Vorhabens",
+                "processVariableName": "duaPdfTitle",
+                "isRequired": true,
+                "isRequiredCondition": false,
+                "isVisible": true
+            }
+        ]
+    }, {
+        "wholeSectionRepetitive": false,
+        "title": "Weitere Informationen",
+        "formFields": [{
+                "id": "d3d80ce3-e4a6-4427-9037-70d5c1246091",
+                "formType": {
+                    "value": "",
+                    "name": "string"
+                },
+                "isRepetitive": false,
+                "label": "Verwertungsziel",
+                "processVariableName": "duaPdfVerwertungsziel",
+                "isRequired": false,
+                "isRequiredCondition": false,
+                "isVisible": true
+            }, {
+                "id": "338bda46-b35d-436d-85f9-ed1934b2bb5e",
+                "formType": {
+                    "value": "",
+                    "name": "string"
+                },
+                "isRepetitive": false,
+                "label": "Bemerkungen",
+                "processVariableName": "duaPdfComment",
+                "isRequired": false,
+                "isRequiredCondition": false,
+                "isVisible": true
+            }
+        ]
+    }, {
+        "wholeSectionRepetitive": false,
+        "title": "IDS",
+        "formFields": [{
+                "id": "81b276ba-bb53-4699-99cd-d27462a1d78c",
+                "formType": {
+                    "possibleValueMap": {
+                        "01": "Ja",
+                        "02": "Nein"
+                    },
+                    "value": "Ja",
+                    "name": "enum"
+                },
+                "isRepetitive": false,
+                "label": "IDS Technologie vorhanden?",
+                "processVariableName": "duaPdfIDSActive",
+                "isRequired": false,
+                "isRequiredCondition": false,
+                "isVisible": true
+            }, {
+                "id": "6360b32b-b772-4f7e-aa95-8550159a9098",
+                "formType": {
+                    "value": "https://platzhalter:1234/IDS",
+                    "name": "string"
+                },
+                "isRepetitive": false,
+                "label": "Connector URL/IP",
+                "processVariableName": "duaPdfIDSConnectorIP",
+                "isRequired": false,
+                "isRequiredCondition": false,
+                "isVisible": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  # Data App (REST consumer, displays web page)
+  provider-app-isst:
+    image: quangtinhle/jib:latest
+    #build:
+    #  context: ./
+    #  dockerfile: Dockerfile
+    ports:
+      - "8099:8099"
+    networks:
+      - provider-internal
+
+networks:
+  provider-internal:
+    driver: bridge
+

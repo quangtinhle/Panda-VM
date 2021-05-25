@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: de.fraunhofer.isst.health:ihe-commons:2.1.13">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/fraunhofer/isst/health/ihe-commons/2.1.13/ihe-commons-2.1.13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/de/fraunhofer/isst/health/ihe-commons/2.1.13/ihe-commons-2.1.13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/fraunhofer/isst/health/ihe-commons/2.1.13/ihe-commons-2.1.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

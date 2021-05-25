@@ -47,13 +47,14 @@ services:
 
   # Sensor data provider
   provider-app:
+    #image: quangtinhle/jib:latest
     #image: fraunhoferaisec/example-client:${EXAMPLE_TAG:-develop}
     build:
       context: ./example-client
       dockerfile: Dockerfile
     networks:
       - provider-internal
-
+    
 networks:
   ids-wide:
     driver: bridge
