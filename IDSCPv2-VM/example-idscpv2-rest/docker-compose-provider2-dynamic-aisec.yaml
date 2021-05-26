@@ -13,7 +13,6 @@ services:
   provider-core:
     image: fraunhoferaisec/trusted-connector-core:${EXAMPLE_TAG:-develop}
     #image: fraunhoferaisec/trusted-connector-core:develop
-    container_name: provider-core
     tty: true
     stdin_open: true
     volumes:
@@ -24,8 +23,8 @@ services:
 #      - ../cert-stores/provider-keystore.p12:/root/etc/provider-keystore.p12
       - ../cert-stores/panda.isst.fraunhofer.de.p12:/root/etc/provider-keystore.p12
       - ../cert-stores/truststore.p12:/root/etc/truststore.p12
-      - ./example-idscp2-provider-extend.xml:/root/deploy/example-provider-routes.xml
-#      - ./example-idscp2-provider.xml:/root/deploy/example-provider-routes.xml
+#      - ./example-idscp2-provider-extend.xml:/root/deploy/example-provider-routes.xml
+      - ./example-idscp2-provider-dynamic.xml:/root/deploy/example-provider-routes.xml
 
     environment:
       - TPM_HOST=ids-tpmsim-provider
@@ -47,27 +46,23 @@ services:
 #      - provider-internal
 
   # Sensor data provider
-#  provider-app:
-    #image: quangtinhle/jib:latest
+  #provider-app:
     #image: fraunhoferaisec/example-client:${EXAMPLE_TAG:-develop}
-#    build:
-#      context: ./example-client
-#      dockerfile: Dockerfile
-#    networks:
-#      - provider-internal
-
-#Test example data with tag <example-data>
+    #build:
+    #  context: ./example-client
+    #  dockerfile: Dockerfile
+    #networks:
+    #  - provider-internal
   provider-app-isst:
-    #image: quangtinhle/provider-app-isst:latest
-    image: quangtinhle/provider-app-isst:example-data
+    image: quangtinhle/provider-app-isst:aisec
     volumes:
-      - ../resource/:/root/
+     - ../resource/:/root
     container_name: provider-app-isst
     ports:
-      - "8099:8099"
+     - "8099:8099"
     networks:
-      - provider-internal
-      - smith
+     - provider-internal
+     - smith
 
 networks:
   ids-wide:
@@ -77,5 +72,3 @@ networks:
   smith:
     name: smith
     driver: bridge
-
-    
