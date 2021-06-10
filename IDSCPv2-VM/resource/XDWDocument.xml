@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <XDW.WorkflowDocument xmlns="urn:ihe:iti:xdw:2011" xmlns:ns2="urn:hl7-org:v3" xmlns:ns3="http://docs.oasis-open.org/ns/bpel4people/ws-humantask/types/200803">
-    <id root="5d55fec6-485e-49a2-b767-594c43b99683" extension="56f2b511-e334-4281-8d33-dfef3a2e68ba"/>
-    <effectiveTime value="20210609185847"/>
-    <confidentialityCode code="e31b5568-a7db-411a-b261-f19d06591564" codeSystem="90be0e8e-3dfa-4b07-9770-51dd12f8e68a" codeSystemName="Name" displayName="ConfidentialityCode"/>
+    <id root="69d34490-c48f-459d-a9f5-242eaf5a1fd0" extension="28932bf3-38a4-4582-91f2-0275dccb2a8f"/>
+    <effectiveTime value="20210610084156"/>
+    <confidentialityCode code="ef0477ba-12c4-4a8b-b082-383484929dbc" codeSystem="47c64ee3-70d9-4602-8c34-9af0a27da006" codeSystemName="Name" displayName="ConfidentialityCode"/>
     <patient>
         <id root="1.2.276.0.76.3.1.320.2.2.999.1" extension="PP.DSS.Test"/>
         <name/>
@@ -18,14 +18,14 @@
             </ns2:assignedPerson>
         </assignedAuthor>
     </author>
-    <workflowInstanceId>1.3.2.4.0.4</workflowInstanceId>
+    <workflowInstanceId>1.3.3.4.0.1</workflowInstanceId>
     <workflowDocumentSequenceNumber>1</workflowDocumentSequenceNumber>
     <workflowStatus>OPEN</workflowStatus>
     <workflowStatusHistory>
         <documentEvent>
-            <eventTime>2021-06-09T18:58:47.133Z</eventTime>
+            <eventTime>2021-06-10T08:41:56.460Z</eventTime>
             <eventType>create</eventType>
-            <taskEventIdentifier>e52a09df-667c-4301-a68f-bf344702bcd7</taskEventIdentifier>
+            <taskEventIdentifier>42bcc607-e9bc-4c52-ba2c-50e85bf1d888</taskEventIdentifier>
             <author>Camunda-Engine</author>
             <previousStatus></previousStatus>
             <actualStatus>OPEN</actualStatus>
@@ -36,7 +36,7 @@
         <XDWTask>
             <taskData>
                 <ns3:taskDetails>
-                    <ns3:id>b7849fae-c954-11eb-b1e2-0242ac120004</ns3:id>
+                    <ns3:id>b5b6e8c3-c9c7-11eb-b1e2-0242ac120004</ns3:id>
                     <ns3:taskType>HUMAN</ns3:taskType>
                     <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">Datennutzungsantrag anlegen</ns3:name>
                     <ns3:status>COMPLETED</ns3:status>
@@ -79,21 +79,21 @@
                     </ns3:potentialOwners>
                     <ns3:actualOwner>Owner</ns3:actualOwner>
                     <ns3:notificationRecipients/>
-                    <ns3:createdTime>2021-06-09T18:58:47.133Z</ns3:createdTime>
+                    <ns3:createdTime>2021-06-10T08:41:56.459Z</ns3:createdTime>
                     <ns3:createdBy>Creator</ns3:createdBy>
-                    <ns3:lastModifiedTime>2021-06-09T18:58:47.133Z</ns3:lastModifiedTime>
+                    <ns3:lastModifiedTime>2021-06-10T08:41:56.459Z</ns3:lastModifiedTime>
                     <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
                 </ns3:taskDetails>
                 <ns3:description>Bitte beschreiben Sie hier Ihren Antrag auf Daten- und/oder Materialnutzung. Diese Beschreibung ist Grundlage für die Bewertung durch verschiedene beteiligte Gremien der Datenintegrationszentren.</ns3:description>
                 <ns3:input>
                     <ns3:part name="Variable-Input-Document-for-Xdw-Document">
                         <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265127037/urn:uuid:6916add2-f991-4aec-a22f-a42f5258875f</ns3:identifier>
+                            <ns3:identifier>2.25.1623314516379/urn:uuid:649786c0-6b4b-40ba-83ef-9750d25ffa87</ns3:identifier>
                             <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
                             <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
                             <ns3:contentType>application/json</ns3:contentType>
                             <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:58:47.134Z</ns3:attachedTime>
+                            <ns3:attachedTime>2021-06-10T08:41:56.460Z</ns3:attachedTime>
                             <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
                         </ns3:attachmentInfo>
                     </ns3:part>
@@ -101,12 +101,12 @@
                 <ns3:output>
                     <ns3:part name="Variable-Input-Document-for-Xdw-Document">
                         <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265140386/urn:uuid:e202d3e9-612a-4841-9e85-d8da49a8ea9c</ns3:identifier>
+                            <ns3:identifier>2.25.1623314608938/urn:uuid:d5926a37-0f9e-4846-a5bf-c5bf5e374c0d</ns3:identifier>
                             <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
                             <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
                             <ns3:contentType>application/json</ns3:contentType>
                             <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:00.466Z</ns3:attachedTime>
+                            <ns3:attachedTime>2021-06-10T08:43:29.009Z</ns3:attachedTime>
                             <ns3:attachedBy>SMITH Marketplace</ns3:attachedBy>
                         </ns3:attachmentInfo>
                     </ns3:part>
@@ -115,16 +115,16 @@
             <taskEventHistory>
                 <taskEvent>
                     <id>1</id>
-                    <eventTime>2021-06-09T18:58:47.133Z</eventTime>
-                    <identifier>e52a09df-667c-4301-a68f-bf344702bcd7</identifier>
+                    <eventTime>2021-06-10T08:41:56.460Z</eventTime>
+                    <identifier>42bcc607-e9bc-4c52-ba2c-50e85bf1d888</identifier>
                     <eventType>create</eventType>
                     <status>CREATED</status>
                     <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
                 </taskEvent>
                 <taskEvent>
                     <id>2</id>
-                    <eventTime>2021-06-09T18:59:00.466Z</eventTime>
-                    <identifier>7cc8128c-89ad-43e1-b9b9-3e5ab30fe698</identifier>
+                    <eventTime>2021-06-10T08:43:29.009Z</eventTime>
+                    <identifier>21bff7e8-18ae-4008-9042-9afbe2e138a2</identifier>
                     <eventType>complete</eventType>
                     <status>COMPLETED</status>
                     <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
@@ -134,628 +134,75 @@
         <XDWTask>
             <taskData>
                 <ns3:taskDetails>
-                    <ns3:id>c2334df5-c954-11eb-b1e2-0242ac120004</ns3:id>
+                    <ns3:id>efc853ca-c9c7-11eb-b1e2-0242ac120004</ns3:id>
                     <ns3:taskType>HUMAN</ns3:taskType>
                     <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">Datennutzungsantrag bewerten</ns3:name>
-                    <ns3:status>COMPLETED</ns3:status>
-                    <ns3:potentialOwners>
-                        <ns3:group>&lt;Policy PolicyId="PolicyOrg"&#13;
-        Version="2.0"&#13;
-        RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides"&gt;&#13;
-    &lt;Target&gt;&#13;
-        &lt;Subjects&gt;&#13;
-            &lt;AnySubject/&gt;&#13;
-        &lt;/Subjects&gt;&#13;
-        &lt;Resources&gt;&#13;
-            &lt;AnyResource/&gt;&#13;
-        &lt;/Resources&gt;&#13;
-        &lt;Actions&gt;&#13;
-            &lt;AnyAction/&gt;&#13;
-        &lt;/Actions&gt;&#13;
-    &lt;/Target&gt;&#13;
-    &lt;Rule RuleId="ReadRule" Effect="Permit"&gt;&#13;
-        &lt;Target&gt;&#13;
-            &lt;Subjects&gt;&#13;
-                &lt;AnySubject/&gt;&#13;
-            &lt;/Subjects&gt;&#13;
-            &lt;Resources&gt;&#13;
-                &lt;AnyResource/&gt;&#13;
-            &lt;/Resources&gt;&#13;
-            &lt;Actions&gt;&#13;
-                &lt;AnyAction/&gt;&#13;
-            &lt;/Actions&gt;&#13;
-        &lt;/Target&gt;&#13;
-        &lt;Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
-            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
-                &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
-                                            AttributeId="urn:oasis:names:tc:xspa:1.0:subject:organiziation-id"/&gt;&#13;
-            &lt;/Apply&gt;&#13;
-            &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;zars-4f4880b1-bebb-4504-bf29-133b47f63640&lt;/AttributeValue&gt;&#13;
-        &lt;/Condition&gt;&#13;
-    &lt;/Rule&gt;&#13;
-&lt;/Policy&gt;</ns3:group>
-                    </ns3:potentialOwners>
-                    <ns3:actualOwner>Owner</ns3:actualOwner>
-                    <ns3:notificationRecipients/>
-                    <ns3:createdTime>2021-06-09T18:59:04.379Z</ns3:createdTime>
-                    <ns3:createdBy>Creator</ns3:createdBy>
-                    <ns3:lastModifiedTime>2021-06-09T18:59:04.379Z</ns3:lastModifiedTime>
-                    <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
-                </ns3:taskDetails>
-                <ns3:description>Bitte bewerten Sie den Datennutzungsantrag hinsichtlich der Erfüllung erforderlicher formaler Kriterien. Eine positive Bewertung aller beteiligten Gremien führt zur Freigabe der angefragten Daten. Stimmen Sie dem Datennutzungsantrag zu?</ns3:description>
-                <ns3:input>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265144318/urn:uuid:2956c7cb-773f-4091-b0f2-6b124583aa33</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:04.379Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="data_use_project_UI_document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265143612/urn:uuid:413feb9c-a502-4f4e-8e49-cab507534488</ns3:identifier>
-                            <ns3:name>data_use_project_UI_document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/pdf</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:04.379Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:input>
-                <ns3:output>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265151535/urn:uuid:1ecc44f4-71e3-48ab-9eef-8b6e063ab89f</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:11.596Z</ns3:attachedTime>
-                            <ns3:attachedBy>SMITH Marketplace</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:output>
-            </taskData>
-            <taskEventHistory>
-                <taskEvent>
-                    <id>1</id>
-                    <eventTime>2021-06-09T18:59:04.379Z</eventTime>
-                    <identifier>f0f1e677-687e-450f-86ca-5a53330de582</identifier>
-                    <eventType>create</eventType>
-                    <status>CREATED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-                <taskEvent>
-                    <id>2</id>
-                    <eventTime>2021-06-09T18:59:11.596Z</eventTime>
-                    <identifier>7243e3e5-eec9-4a02-a186-9b884a2d275b</identifier>
-                    <eventType>complete</eventType>
-                    <status>COMPLETED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-            </taskEventHistory>
-        </XDWTask>
-        <XDWTask>
-            <taskData>
-                <ns3:taskDetails>
-                    <ns3:id>c7685018-c954-11eb-b1e2-0242ac120004</ns3:id>
-                    <ns3:taskType>HUMAN</ns3:taskType>
-                    <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">Datennutzungsantrag bewerten</ns3:name>
-                    <ns3:status>COMPLETED</ns3:status>
-                    <ns3:potentialOwners>
-                        <ns3:group>&lt;Policy PolicyId="OrgAndRolePolicy"&#13;
-        Version="2.0"&#13;
-        RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides"&gt;&#13;
-    &lt;Target&gt;&#13;
-        &lt;Subjects&gt;&#13;
-            &lt;AnySubject/&gt;&#13;
-        &lt;/Subjects&gt;&#13;
-        &lt;Resources&gt;&#13;
-            &lt;AnyResource/&gt;&#13;
-        &lt;/Resources&gt;&#13;
-        &lt;Actions&gt;&#13;
-            &lt;AnyAction/&gt;&#13;
-        &lt;/Actions&gt;&#13;
-    &lt;/Target&gt;&#13;
-    &lt;Rule RuleId="ReadRule" Effect="Permit"&gt;&#13;
-        &lt;Target&gt;&#13;
-            &lt;Subjects&gt;&#13;
-                &lt;AnySubject/&gt;&#13;
-            &lt;/Subjects&gt;&#13;
-            &lt;Resources&gt;&#13;
-                &lt;AnyResource/&gt;&#13;
-            &lt;/Resources&gt;&#13;
-            &lt;Actions&gt;&#13;
-                &lt;AnyAction/&gt;&#13;
-            &lt;/Actions&gt;&#13;
-        &lt;/Target&gt;&#13;
-        &lt;Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:and"&gt;&#13;
-            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
-                &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
-                    &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
-                                                AttributeId="urn:oasis:names:tc:xspa:1.0:subject:organiziation-id"/&gt;&#13;
-                &lt;/Apply&gt;&#13;
-                &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;1.2.276.0.76.3.1.93.1.2.101.3.1.1&lt;/AttributeValue&gt;&#13;
-            &lt;/Apply&gt;&#13;
-            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
-                &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
-                    &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
-                                                AttributeId="urn:oasis:names:tc:xacml:2.0:subject:role"/&gt;&#13;
-                &lt;/Apply&gt;&#13;
-                &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;DIZ&lt;/AttributeValue&gt;&#13;
-            &lt;/Apply&gt;&#13;
-        &lt;/Condition&gt;&#13;
-    &lt;/Rule&gt;&#13;
-&lt;/Policy&gt;</ns3:group>
-                    </ns3:potentialOwners>
-                    <ns3:actualOwner>Owner</ns3:actualOwner>
-                    <ns3:notificationRecipients/>
-                    <ns3:createdTime>2021-06-09T18:59:14.633Z</ns3:createdTime>
-                    <ns3:createdBy>Creator</ns3:createdBy>
-                    <ns3:lastModifiedTime>2021-06-09T18:59:14.633Z</ns3:lastModifiedTime>
-                    <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
-                </ns3:taskDetails>
-                <ns3:description>Bitte bewerten Sie den Datennutzungsantrag hinsichtlich der Erfüllung erforderlicher ethischer und gesetzlicher Kriterien. Eine positive Bewertung aller beteiligten Gremien führt zur Freigabe der angefragten Daten. Stimmen Sie dem Datennutzungsantrag zu?</ns3:description>
-                <ns3:input>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265154584/urn:uuid:db1acd78-c35e-4a8f-920d-2ddc1bda526c</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:14.634Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="data_use_project_UI_document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265143612/urn:uuid:413feb9c-a502-4f4e-8e49-cab507534488</ns3:identifier>
-                            <ns3:name>data_use_project_UI_document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/pdf</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:14.634Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:input>
-                <ns3:output>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265162375/urn:uuid:1c36edb4-f873-4877-8d80-5191ee52f406</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:22.432Z</ns3:attachedTime>
-                            <ns3:attachedBy>SMITH Marketplace</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:output>
-            </taskData>
-            <taskEventHistory>
-                <taskEvent>
-                    <id>1</id>
-                    <eventTime>2021-06-09T18:59:14.634Z</eventTime>
-                    <identifier>bd984f10-b43e-48cb-ba9b-1bdcdcae554f</identifier>
-                    <eventType>create</eventType>
-                    <status>CREATED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-                <taskEvent>
-                    <id>2</id>
-                    <eventTime>2021-06-09T18:59:22.433Z</eventTime>
-                    <identifier>6d31f6e3-341b-41e2-964e-c6c5e7560b23</identifier>
-                    <eventType>complete</eventType>
-                    <status>COMPLETED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-            </taskEventHistory>
-        </XDWTask>
-        <XDWTask>
-            <taskData>
-                <ns3:taskDetails>
-                    <ns3:id>cf1a1219-c954-11eb-b1e2-0242ac120004</ns3:id>
-                    <ns3:taskType>HUMAN</ns3:taskType>
-                    <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">Vertrag fuer die Datennutzung unterzeichnen</ns3:name>
-                    <ns3:status>COMPLETED</ns3:status>
-                    <ns3:potentialOwners>
-                        <ns3:group>&lt;Policy PolicyId="PolicySubject"&#13;
-        Version="2.0"&#13;
-        RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides"&gt;&#13;
-    &lt;Target&gt;&#13;
-        &lt;Subjects&gt;&#13;
-            &lt;AnySubject/&gt;&#13;
-        &lt;/Subjects&gt;&#13;
-        &lt;Resources&gt;&#13;
-            &lt;AnyResource/&gt;&#13;
-        &lt;/Resources&gt;&#13;
-        &lt;Actions&gt;&#13;
-            &lt;AnyAction/&gt;&#13;
-        &lt;/Actions&gt;&#13;
-    &lt;/Target&gt;&#13;
-    &lt;Rule RuleId="ReadRule" Effect="Permit"&gt;&#13;
-        &lt;Target&gt;&#13;
-            &lt;Subjects&gt;&#13;
-                &lt;AnySubject/&gt;&#13;
-            &lt;/Subjects&gt;&#13;
-            &lt;Resources&gt;&#13;
-                &lt;AnyResource/&gt;&#13;
-            &lt;/Resources&gt;&#13;
-            &lt;Actions&gt;&#13;
-                &lt;AnyAction/&gt;&#13;
-            &lt;/Actions&gt;&#13;
-        &lt;/Target&gt;&#13;
-        &lt;Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
-            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
-                &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
-                                            AttributeId="urn:oasis:names:tc:xacml:1.0:subject:subject-id"/&gt;&#13;
-            &lt;/Apply&gt;&#13;
-            &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;G-fd251640-d185-44f0-a011-0cb9e9889cea&lt;/AttributeValue&gt;&#13;
-        &lt;/Condition&gt;&#13;
-    &lt;/Rule&gt;&#13;
-&lt;/Policy&gt;</ns3:group>
-                    </ns3:potentialOwners>
-                    <ns3:actualOwner>Owner</ns3:actualOwner>
-                    <ns3:notificationRecipients/>
-                    <ns3:createdTime>2021-06-09T18:59:26.053Z</ns3:createdTime>
-                    <ns3:createdBy>Creator</ns3:createdBy>
-                    <ns3:lastModifiedTime>2021-06-09T18:59:26.053Z</ns3:lastModifiedTime>
-                    <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
-                </ns3:taskDetails>
-                <ns3:description>Bitte drucken und füllen Sie das Vertragsdokument aus und bestätigen Sie die erfolgte Übermittlung an die Annahmestelle.</ns3:description>
-                <ns3:input>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265166004/urn:uuid:6e278133-586a-4fdc-a46c-1f37684cab77</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:26.053Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="data_use_project_UI_document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265143612/urn:uuid:413feb9c-a502-4f4e-8e49-cab507534488</ns3:identifier>
-                            <ns3:name>data_use_project_UI_document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/pdf</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:26.053Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="ContractDocxDocuments">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265165302/urn:uuid:9e40e0e8-5a16-47c0-95e2-65b4af034c1a</ns3:identifier>
-                            <ns3:name>ContractDocxDocuments</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/msword</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:26.053Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="ContractDocxDocuments">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265165245/urn:uuid:1f8c870f-b9d4-48b1-93c4-4bb308b72d53</ns3:identifier>
-                            <ns3:name>ContractDocxDocuments</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/msword</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:26.053Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="ContractDocxDocuments">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265165003/urn:uuid:10dcf9ed-e20f-45b0-a218-6c0fc18933b7</ns3:identifier>
-                            <ns3:name>ContractDocxDocuments</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/msword</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:26.053Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:input>
-                <ns3:output>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265171516/urn:uuid:b4806a0d-6988-447a-91c8-809227c274ef</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:31.565Z</ns3:attachedTime>
-                            <ns3:attachedBy>SMITH Marketplace</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:output>
-            </taskData>
-            <taskEventHistory>
-                <taskEvent>
-                    <id>1</id>
-                    <eventTime>2021-06-09T18:59:26.053Z</eventTime>
-                    <identifier>60c1b043-f0c3-4611-8358-67c52e9bf907</identifier>
-                    <eventType>create</eventType>
-                    <status>CREATED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-                <taskEvent>
-                    <id>2</id>
-                    <eventTime>2021-06-09T18:59:31.565Z</eventTime>
-                    <identifier>650bc06b-df00-4f7d-b797-8a09faa226bc</identifier>
-                    <eventType>complete</eventType>
-                    <status>COMPLETED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-            </taskEventHistory>
-        </XDWTask>
-        <XDWTask>
-            <taskData>
-                <ns3:taskDetails>
-                    <ns3:id>d34e1eed-c954-11eb-b1e2-0242ac120004</ns3:id>
-                    <ns3:taskType>HUMAN</ns3:taskType>
-                    <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">Vertrag fuer die Datennutzung bestaetigen</ns3:name>
-                    <ns3:status>COMPLETED</ns3:status>
-                    <ns3:potentialOwners>
-                        <ns3:group>&lt;Policy PolicyId="PolicyOrg"&#13;
-        Version="2.0"&#13;
-        RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides"&gt;&#13;
-    &lt;Target&gt;&#13;
-        &lt;Subjects&gt;&#13;
-            &lt;AnySubject/&gt;&#13;
-        &lt;/Subjects&gt;&#13;
-        &lt;Resources&gt;&#13;
-            &lt;AnyResource/&gt;&#13;
-        &lt;/Resources&gt;&#13;
-        &lt;Actions&gt;&#13;
-            &lt;AnyAction/&gt;&#13;
-        &lt;/Actions&gt;&#13;
-    &lt;/Target&gt;&#13;
-    &lt;Rule RuleId="ReadRule" Effect="Permit"&gt;&#13;
-        &lt;Target&gt;&#13;
-            &lt;Subjects&gt;&#13;
-                &lt;AnySubject/&gt;&#13;
-            &lt;/Subjects&gt;&#13;
-            &lt;Resources&gt;&#13;
-                &lt;AnyResource/&gt;&#13;
-            &lt;/Resources&gt;&#13;
-            &lt;Actions&gt;&#13;
-                &lt;AnyAction/&gt;&#13;
-            &lt;/Actions&gt;&#13;
-        &lt;/Target&gt;&#13;
-        &lt;Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
-            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
-                &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
-                                            AttributeId="urn:oasis:names:tc:xspa:1.0:subject:organiziation-id"/&gt;&#13;
-            &lt;/Apply&gt;&#13;
-            &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;zars-4f4880b1-bebb-4504-bf29-133b47f63640&lt;/AttributeValue&gt;&#13;
-        &lt;/Condition&gt;&#13;
-    &lt;/Rule&gt;&#13;
-&lt;/Policy&gt;</ns3:group>
-                    </ns3:potentialOwners>
-                    <ns3:actualOwner>Owner</ns3:actualOwner>
-                    <ns3:notificationRecipients/>
-                    <ns3:createdTime>2021-06-09T18:59:34.259Z</ns3:createdTime>
-                    <ns3:createdBy>Creator</ns3:createdBy>
-                    <ns3:lastModifiedTime>2021-06-09T18:59:34.259Z</ns3:lastModifiedTime>
-                    <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
-                </ns3:taskDetails>
-                <ns3:description>Bitte bestätigen Sie den Eingang des Vertragsdokumentes und die Erfüllung aller formal erforderlichen Kriterien.</ns3:description>
-                <ns3:input>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265174219/urn:uuid:80609e53-b506-40ed-95ea-4cca28af75da</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:34.259Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="data_use_project_UI_document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265143612/urn:uuid:413feb9c-a502-4f4e-8e49-cab507534488</ns3:identifier>
-                            <ns3:name>data_use_project_UI_document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/pdf</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:34.259Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:input>
-                <ns3:output>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265181844/urn:uuid:f1ccc7ce-3ad0-4695-8448-2451e95b5e68</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:41.905Z</ns3:attachedTime>
-                            <ns3:attachedBy>SMITH Marketplace</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:output>
-            </taskData>
-            <taskEventHistory>
-                <taskEvent>
-                    <id>1</id>
-                    <eventTime>2021-06-09T18:59:34.259Z</eventTime>
-                    <identifier>94c14eec-bf86-4845-9cb0-4f746998e630</identifier>
-                    <eventType>create</eventType>
-                    <status>CREATED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-                <taskEvent>
-                    <id>2</id>
-                    <eventTime>2021-06-09T18:59:41.905Z</eventTime>
-                    <identifier>d8aab29e-6d8a-42c4-91d6-4f6d76a0d896</identifier>
-                    <eventType>complete</eventType>
-                    <status>COMPLETED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-            </taskEventHistory>
-        </XDWTask>
-        <XDWTask>
-            <taskData>
-                <ns3:taskDetails>
-                    <ns3:id>d962aaa0-c954-11eb-b1e2-0242ac120004</ns3:id>
-                    <ns3:taskType>HUMAN</ns3:taskType>
-                    <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">Vertrag fuer die Datennutzung bestaetigen</ns3:name>
-                    <ns3:status>COMPLETED</ns3:status>
-                    <ns3:potentialOwners>
-                        <ns3:group>&lt;Policy PolicyId="OrgAndRolePolicy"&#13;
-        Version="2.0"&#13;
-        RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides"&gt;&#13;
-    &lt;Target&gt;&#13;
-        &lt;Subjects&gt;&#13;
-            &lt;AnySubject/&gt;&#13;
-        &lt;/Subjects&gt;&#13;
-        &lt;Resources&gt;&#13;
-            &lt;AnyResource/&gt;&#13;
-        &lt;/Resources&gt;&#13;
-        &lt;Actions&gt;&#13;
-            &lt;AnyAction/&gt;&#13;
-        &lt;/Actions&gt;&#13;
-    &lt;/Target&gt;&#13;
-    &lt;Rule RuleId="ReadRule" Effect="Permit"&gt;&#13;
-        &lt;Target&gt;&#13;
-            &lt;Subjects&gt;&#13;
-                &lt;AnySubject/&gt;&#13;
-            &lt;/Subjects&gt;&#13;
-            &lt;Resources&gt;&#13;
-                &lt;AnyResource/&gt;&#13;
-            &lt;/Resources&gt;&#13;
-            &lt;Actions&gt;&#13;
-                &lt;AnyAction/&gt;&#13;
-            &lt;/Actions&gt;&#13;
-        &lt;/Target&gt;&#13;
-        &lt;Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:and"&gt;&#13;
-            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
-                &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
-                    &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
-                                                AttributeId="urn:oasis:names:tc:xspa:1.0:subject:organiziation-id"/&gt;&#13;
-                &lt;/Apply&gt;&#13;
-                &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;1.2.276.0.76.3.1.93.1.2.101.3.1.1&lt;/AttributeValue&gt;&#13;
-            &lt;/Apply&gt;&#13;
-            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
-                &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
-                    &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
-                                                AttributeId="urn:oasis:names:tc:xacml:2.0:subject:role"/&gt;&#13;
-                &lt;/Apply&gt;&#13;
-                &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;DIZ&lt;/AttributeValue&gt;&#13;
-            &lt;/Apply&gt;&#13;
-        &lt;/Condition&gt;&#13;
-    &lt;/Rule&gt;&#13;
-&lt;/Policy&gt;</ns3:group>
-                    </ns3:potentialOwners>
-                    <ns3:actualOwner>Owner</ns3:actualOwner>
-                    <ns3:notificationRecipients/>
-                    <ns3:createdTime>2021-06-09T18:59:43.938Z</ns3:createdTime>
-                    <ns3:createdBy>Creator</ns3:createdBy>
-                    <ns3:lastModifiedTime>2021-06-09T18:59:43.938Z</ns3:lastModifiedTime>
-                    <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
-                </ns3:taskDetails>
-                <ns3:description>Bitte bestätigen Sie den Eingang des Vertragsdokumentes und die Erfüllung aller formal erforderlichen Kriterien.</ns3:description>
-                <ns3:input>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265183902/urn:uuid:4910bd0f-7973-44c0-bec6-304378efa94b</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:43.939Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                    <ns3:part name="data_use_project_UI_document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265143612/urn:uuid:413feb9c-a502-4f4e-8e49-cab507534488</ns3:identifier>
-                            <ns3:name>data_use_project_UI_document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/pdf</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:43.939Z</ns3:attachedTime>
-                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:input>
-                <ns3:output>
-                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
-                        <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265191482/urn:uuid:10ec707c-196f-4822-b0ce-ea6aa916cbe3</ns3:identifier>
-                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
-                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
-                            <ns3:contentType>application/json</ns3:contentType>
-                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:51.543Z</ns3:attachedTime>
-                            <ns3:attachedBy>SMITH Marketplace</ns3:attachedBy>
-                        </ns3:attachmentInfo>
-                    </ns3:part>
-                </ns3:output>
-            </taskData>
-            <taskEventHistory>
-                <taskEvent>
-                    <id>1</id>
-                    <eventTime>2021-06-09T18:59:43.939Z</eventTime>
-                    <identifier>aadfd54d-3ef8-4999-b08c-4b5169c27baa</identifier>
-                    <eventType>create</eventType>
-                    <status>CREATED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-                <taskEvent>
-                    <id>2</id>
-                    <eventTime>2021-06-09T18:59:51.543Z</eventTime>
-                    <identifier>dca77adf-ba9e-467d-b607-20f5ce8d4cba</identifier>
-                    <eventType>complete</eventType>
-                    <status>COMPLETED</status>
-                    <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-                </taskEvent>
-            </taskEventHistory>
-        </XDWTask>
-        <XDWTask>
-            <taskData>
-                <ns3:taskDetails>
-                    <ns3:id>df70f5c2-c954-11eb-b1e2-0242ac120004</ns3:id>
-                    <ns3:taskType>SERVICE</ns3:taskType>
-                    <ns3:name xmlns="" xmlns:ns4="urn:ihe:iti:xdw:2011">1.2.276.0.76.3.1.320.1.11.21.1</ns3:name>
                     <ns3:status>CREATED</ns3:status>
                     <ns3:potentialOwners>
-                        <ns3:group></ns3:group>
+                        <ns3:group>&lt;Policy PolicyId="PolicyOrg"&#13;
+        Version="2.0"&#13;
+        RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides"&gt;&#13;
+    &lt;Target&gt;&#13;
+        &lt;Subjects&gt;&#13;
+            &lt;AnySubject/&gt;&#13;
+        &lt;/Subjects&gt;&#13;
+        &lt;Resources&gt;&#13;
+            &lt;AnyResource/&gt;&#13;
+        &lt;/Resources&gt;&#13;
+        &lt;Actions&gt;&#13;
+            &lt;AnyAction/&gt;&#13;
+        &lt;/Actions&gt;&#13;
+    &lt;/Target&gt;&#13;
+    &lt;Rule RuleId="ReadRule" Effect="Permit"&gt;&#13;
+        &lt;Target&gt;&#13;
+            &lt;Subjects&gt;&#13;
+                &lt;AnySubject/&gt;&#13;
+            &lt;/Subjects&gt;&#13;
+            &lt;Resources&gt;&#13;
+                &lt;AnyResource/&gt;&#13;
+            &lt;/Resources&gt;&#13;
+            &lt;Actions&gt;&#13;
+                &lt;AnyAction/&gt;&#13;
+            &lt;/Actions&gt;&#13;
+        &lt;/Target&gt;&#13;
+        &lt;Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"&gt;&#13;
+            &lt;Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only"&gt;&#13;
+                &lt;SubjectAttributeDesignator DataType="http://www.w3.org/2001/XMLSchema#string"&#13;
+                                            AttributeId="urn:oasis:names:tc:xspa:1.0:subject:organiziation-id"/&gt;&#13;
+            &lt;/Apply&gt;&#13;
+            &lt;AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string"&gt;zars-4f4880b1-bebb-4504-bf29-133b47f63640&lt;/AttributeValue&gt;&#13;
+        &lt;/Condition&gt;&#13;
+    &lt;/Rule&gt;&#13;
+&lt;/Policy&gt;</ns3:group>
                     </ns3:potentialOwners>
                     <ns3:actualOwner>Owner</ns3:actualOwner>
-                    <ns3:notificationRecipients>
-                        <ns3:group>1.2.276.0.76.3.1.93.1.2.101.3.1.1</ns3:group>
-                    </ns3:notificationRecipients>
-                    <ns3:createdTime>2021-06-09T18:59:53.309Z</ns3:createdTime>
+                    <ns3:notificationRecipients/>
+                    <ns3:createdTime>2021-06-10T08:43:32.898Z</ns3:createdTime>
                     <ns3:createdBy>Creator</ns3:createdBy>
-                    <ns3:lastModifiedTime>2021-06-09T18:59:53.309Z</ns3:lastModifiedTime>
+                    <ns3:lastModifiedTime>2021-06-10T08:43:32.898Z</ns3:lastModifiedTime>
                     <ns3:renderingMethodExists>false</ns3:renderingMethodExists>
                 </ns3:taskDetails>
                 <ns3:description>Dummy description that is replaced later, but is necessary for the build process now</ns3:description>
                 <ns3:input>
-                    <ns3:part name="QueryDocument">
+                    <ns3:part name="Variable-Input-Document-for-Xdw-Document">
                         <ns3:attachmentInfo>
-                            <ns3:identifier>2.25.1623265125719/urn:uuid:59bda895-6f70-44a4-b5f5-f4c5937120a4</ns3:identifier>
-                            <ns3:name>QueryDocument</ns3:name>
+                            <ns3:identifier>2.25.1623314612833/urn:uuid:ef4996c2-5888-4e78-a5bf-15f127f5cb2a</ns3:identifier>
+                            <ns3:name>Variable-Input-Document-for-Xdw-Document</ns3:name>
                             <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
                             <ns3:contentType>application/json</ns3:contentType>
                             <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
-                            <ns3:attachedTime>2021-06-09T18:59:53.309Z</ns3:attachedTime>
+                            <ns3:attachedTime>2021-06-10T08:43:32.899Z</ns3:attachedTime>
+                            <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
+                        </ns3:attachmentInfo>
+                    </ns3:part>
+                    <ns3:part name="data_use_project_UI_document">
+                        <ns3:attachmentInfo>
+                            <ns3:identifier>2.25.1623314612207/urn:uuid:09f85c92-5619-4b53-8e99-d68784b5b131</ns3:identifier>
+                            <ns3:name>data_use_project_UI_document</ns3:name>
+                            <ns3:accessType>urn:ihe:iti:xdw:2011:XDSregistered</ns3:accessType>
+                            <ns3:contentType>application/pdf</ns3:contentType>
+                            <ns3:contentCategory>http://www.iana.org/assignments/media-types</ns3:contentCategory>
+                            <ns3:attachedTime>2021-06-10T08:43:32.899Z</ns3:attachedTime>
                             <ns3:attachedBy>Camunda-Engine</ns3:attachedBy>
                         </ns3:attachmentInfo>
                     </ns3:part>
@@ -765,8 +212,8 @@
             <taskEventHistory>
                 <taskEvent>
                     <id>1</id>
-                    <eventTime>2021-06-09T18:59:53.309Z</eventTime>
-                    <identifier>c071f635-a492-4338-8444-843081d0be79</identifier>
+                    <eventTime>2021-06-10T08:43:32.899Z</eventTime>
+                    <identifier>b1ac8566-f046-4eda-a006-c2bf550978d8</identifier>
                     <eventType>create</eventType>
                     <status>CREATED</status>
                     <eventData xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
